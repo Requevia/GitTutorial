@@ -8,7 +8,7 @@ public class Address {
 	private String state;
 	private String zip;
 	private String county;
-	private String countyFIP;
+	private String countyFIPs;
 	
 	
 	public String getAddressLine1() {
@@ -47,10 +47,10 @@ public class Address {
 	public void setCounty(String county) {
 		this.county = county;
 	}
-	public String getCountyFIP() {
-		return countyFIP;
+	public String getCountyFIPs() {
+		return countyFIPs;
 	}
-	public void setCountyFIP(String countyFIP) {
-		this.countyFIP = countyFIP;
+	public void setCountyFIP(String countyFIPs) {
+		this.countyFIPs = countyFIPs;
 	}
 }
